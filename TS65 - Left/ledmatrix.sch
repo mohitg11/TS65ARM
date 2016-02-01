@@ -1,0 +1,1060 @@
+EESchema Schematic File Version 2
+LIBS:TS65Left
+LIBS:TS65Left-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "TS65-L"
+Date "2016-01-30"
+Rev "Rev 0.1"
+Comp "MOZ"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1500 1700 0    60   BiDi ~ 0
+CA1
+Text HLabel 1500 2200 0    60   BiDi ~ 0
+CA2
+Text HLabel 1500 2700 0    60   BiDi ~ 0
+CA3
+Text HLabel 1500 3200 0    60   BiDi ~ 0
+CA4
+Text HLabel 1500 3700 0    60   BiDi ~ 0
+CA5
+Text HLabel 1500 4500 0    60   BiDi ~ 0
+CA6
+Text HLabel 1500 5100 0    60   BiDi ~ 0
+CA7
+Text HLabel 1500 5200 0    60   BiDi ~ 0
+CA8
+Text HLabel 1500 5700 0    60   BiDi ~ 0
+CA9
+$Comp
+L LED LED1
+U 1 1 55931F5E
+P 2000 1900
+F 0 "LED1" H 2000 2000 50  0000 C CNN
+F 1 "LED" H 2000 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2000 1900 60  0001 C CNN
+F 3 "" H 2000 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2000 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED6
+U 1 1 55931FB3
+P 2300 1900
+F 0 "LED6" H 2300 2000 50  0000 C CNN
+F 1 "LED" H 2300 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2300 1900 60  0001 C CNN
+F 3 "" H 2300 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2300 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED10
+U 1 1 55931FD1
+P 2600 1900
+F 0 "LED10" H 2600 2000 50  0000 C CNN
+F 1 "LED" H 2600 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2600 1900 60  0001 C CNN
+F 3 "" H 2600 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2600 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED15
+U 1 1 55931FF1
+P 2900 1900
+F 0 "LED15" H 2900 2000 50  0000 C CNN
+F 1 "LED" H 2900 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2900 1900 60  0001 C CNN
+F 3 "" H 2900 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2900 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED23
+U 1 1 55932041
+P 3500 1900
+F 0 "LED23" H 3500 2000 50  0000 C CNN
+F 1 "LED" H 3500 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 3500 1900 60  0001 C CNN
+F 3 "" H 3500 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    3500 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED28
+U 1 1 55932098
+P 4700 1900
+F 0 "LED28" H 4700 2000 50  0000 C CNN
+F 1 "LED" H 4700 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4700 1900 60  0001 C CNN
+F 3 "" H 4700 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4700 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED2
+U 1 1 5593211C
+P 2000 2400
+F 0 "LED2" H 2000 2500 50  0000 C CNN
+F 1 "LED" H 2000 2300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2000 2400 60  0001 C CNN
+F 3 "" H 2000 2400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2000 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED7
+U 1 1 55932150
+P 2300 2400
+F 0 "LED7" H 2300 2500 50  0000 C CNN
+F 1 "LED" H 2300 2300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2300 2400 60  0001 C CNN
+F 3 "" H 2300 2400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2300 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED11
+U 1 1 55932182
+P 2600 2400
+F 0 "LED11" H 2600 2500 50  0000 C CNN
+F 1 "LED" H 2600 2300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2600 2400 60  0001 C CNN
+F 3 "" H 2600 2400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2600 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED16
+U 1 1 559321B0
+P 2900 2400
+F 0 "LED16" H 2900 2500 50  0000 C CNN
+F 1 "LED" H 2900 2300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2900 2400 60  0001 C CNN
+F 3 "" H 2900 2400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2900 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED24
+U 1 1 55932216
+P 3500 2400
+F 0 "LED24" H 3500 2500 50  0000 C CNN
+F 1 "LED" H 3500 2300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 3500 2400 60  0001 C CNN
+F 3 "" H 3500 2400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    3500 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED29
+U 1 1 55932280
+P 4400 2400
+F 0 "LED29" H 4400 2500 50  0000 C CNN
+F 1 "LED" H 4400 2300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4400 2400 60  0001 C CNN
+F 3 "" H 4400 2400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4400 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED3
+U 1 1 559322B6
+P 2000 2900
+F 0 "LED3" H 2000 3000 50  0000 C CNN
+F 1 "LED" H 2000 2800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2000 2900 60  0001 C CNN
+F 3 "" H 2000 2900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2000 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED12
+U 1 1 55932330
+P 2600 2900
+F 0 "LED12" H 2600 3000 50  0000 C CNN
+F 1 "LED" H 2600 2800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2600 2900 60  0001 C CNN
+F 3 "" H 2600 2900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2600 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED17
+U 1 1 55932370
+P 2900 2900
+F 0 "LED17" H 2900 3000 50  0000 C CNN
+F 1 "LED" H 2900 2800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2900 2900 60  0001 C CNN
+F 3 "" H 2900 2900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2900 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED25
+U 1 1 559323F6
+P 3500 2900
+F 0 "LED25" H 3500 3000 50  0000 C CNN
+F 1 "LED" H 3500 2800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 3500 2900 60  0001 C CNN
+F 3 "" H 3500 2900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    3500 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED30_2
+U 1 1 5593247C
+P 4250 2900
+F 0 "LED30_2" H 4250 3000 50  0000 C CNN
+F 1 "LED" H 4250 2800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4250 2900 60  0001 C CNN
+F 3 "" H 4250 2900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 1850 1900 60  0001 C CNN "Description"
+	1    4250 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED4
+U 1 1 55932514
+P 2000 3400
+F 0 "LED4" H 2000 3500 50  0000 C CNN
+F 1 "LED" H 2000 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2000 3400 60  0001 C CNN
+F 3 "" H 2000 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2000 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED8
+U 1 1 55932568
+P 2300 3400
+F 0 "LED8" H 2300 3500 50  0000 C CNN
+F 1 "LED" H 2300 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2300 3400 60  0001 C CNN
+F 3 "" H 2300 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2300 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED13
+U 1 1 559325BC
+P 2600 3400
+F 0 "LED13" H 2600 3500 50  0000 C CNN
+F 1 "LED" H 2600 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2600 3400 60  0001 C CNN
+F 3 "" H 2600 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2600 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED18
+U 1 1 5593260C
+P 2900 3400
+F 0 "LED18" H 2900 3500 50  0000 C CNN
+F 1 "LED" H 2900 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2900 3400 60  0001 C CNN
+F 3 "" H 2900 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2900 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED21
+U 1 1 5593265E
+P 3200 3400
+F 0 "LED21" H 3200 3500 50  0000 C CNN
+F 1 "LED" H 3200 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 3200 3400 60  0001 C CNN
+F 3 "" H 3200 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    3200 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED26
+U 1 1 559326B2
+P 3500 3400
+F 0 "LED26" H 3500 3500 50  0000 C CNN
+F 1 "LED" H 3500 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 3500 3400 60  0001 C CNN
+F 3 "" H 3500 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    3500 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED31
+U 1 1 55932764
+P 4400 3400
+F 0 "LED31" H 4400 3500 50  0000 C CNN
+F 1 "LED" H 4400 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4400 3400 60  0001 C CNN
+F 3 "" H 4400 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4400 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED5
+U 1 1 559327C4
+P 2000 3900
+F 0 "LED5" H 2000 4000 50  0000 C CNN
+F 1 "LED" H 2000 3800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2000 3900 60  0001 C CNN
+F 3 "" H 2000 3900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2000 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED9
+U 1 1 5593283A
+P 2300 3900
+F 0 "LED9" H 2300 4000 50  0000 C CNN
+F 1 "LED" H 2300 3800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2300 3900 60  0001 C CNN
+F 3 "" H 2300 3900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2300 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED14
+U 1 1 55932898
+P 2600 3900
+F 0 "LED14" H 2600 4000 50  0000 C CNN
+F 1 "LED" H 2600 3800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2600 3900 60  0001 C CNN
+F 3 "" H 2600 3900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2600 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED19
+U 1 1 559328FC
+P 2900 3900
+F 0 "LED19" H 2900 4000 50  0000 C CNN
+F 1 "LED" H 2900 3800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 2900 3900 60  0001 C CNN
+F 3 "" H 2900 3900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    2900 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED22
+U 1 1 55932962
+P 3200 3900
+F 0 "LED22" H 3200 4000 50  0000 C CNN
+F 1 "LED" H 3200 3800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 3200 3900 60  0001 C CNN
+F 3 "" H 3200 3900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    3200 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED27
+U 1 1 55932708
+P 3750 3400
+F 0 "LED27" H 3750 3500 50  0000 C CNN
+F 1 "LED" H 3750 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 3750 3400 60  0001 C CNN
+F 3 "" H 3750 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    3750 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED19_2
+U 1 1 569BFFE2
+P 3000 4200
+F 0 "LED19_2" H 3000 4300 50  0000 C CNN
+F 1 "LED" H 3000 4100 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 3000 4200 60  0001 C CNN
+F 3 "" H 3000 4200 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    3000 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED26_2
+U 1 1 569D1123
+P 3400 3550
+F 0 "LED26_2" H 3400 3650 50  0000 C CNN
+F 1 "LED" H 3400 3450 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 3400 3550 60  0001 C CNN
+F 3 "" H 3400 3550 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    3400 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED20
+U 1 1 569D82C6
+P 3200 2900
+F 0 "LED20" H 3200 3000 50  0000 C CNN
+F 1 "LED" H 3200 2800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 3200 2900 60  0001 C CNN
+F 3 "" H 3200 2900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    3200 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG1
+U 1 1 569E24CC
+P 2000 4700
+F 0 "LEDG1" H 2000 4800 50  0000 C CNN
+F 1 "LED" H 2000 4600 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 2000 4700 60  0001 C CNN
+F 3 "" H 2000 4700 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    2000 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG3
+U 1 1 569E41C9
+P 2300 4700
+F 0 "LEDG3" H 2300 4800 50  0000 C CNN
+F 1 "LED" H 2300 4600 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 2300 4700 60  0001 C CNN
+F 3 "" H 2300 4700 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    2300 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG4
+U 1 1 569E4215
+P 2600 4700
+F 0 "LEDG4" H 2600 4800 50  0000 C CNN
+F 1 "LED" H 2600 4600 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 2600 4700 60  0001 C CNN
+F 3 "" H 2600 4700 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    2600 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG5
+U 1 1 569E43AE
+P 2900 4700
+F 0 "LEDG5" H 2900 4800 50  0000 C CNN
+F 1 "LED" H 2900 4600 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 2900 4700 60  0001 C CNN
+F 3 "" H 2900 4700 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    2900 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG8
+U 1 1 569E44A8
+P 3200 4700
+F 0 "LEDG8" H 3200 4800 50  0000 C CNN
+F 1 "LED" H 3200 4600 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 3200 4700 60  0001 C CNN
+F 3 "" H 3200 4700 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    3200 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG10
+U 1 1 569E453A
+P 3500 4700
+F 0 "LEDG10" H 3500 4800 50  0000 C CNN
+F 1 "LED" H 3500 4600 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 3500 4700 60  0001 C CNN
+F 3 "" H 3500 4700 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    3500 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG15
+U 1 1 569E45C9
+P 3800 4700
+F 0 "LEDG15" H 3800 4800 50  0000 C CNN
+F 1 "LED" H 3800 4600 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 3800 4700 60  0001 C CNN
+F 3 "" H 3800 4700 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    3800 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG16
+U 1 1 569E46EC
+P 4400 3900
+F 0 "LEDG16" H 4400 4000 50  0000 C CNN
+F 1 "LED" H 4400 3800 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 4400 3900 60  0001 C CNN
+F 3 "" H 4400 3900 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    4400 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG14
+U 1 1 569E4796
+P 3800 3900
+F 0 "LEDG14" H 3800 4000 50  0000 C CNN
+F 1 "LED" H 3800 3800 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 3800 3900 60  0001 C CNN
+F 3 "" H 3800 3900 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    3800 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG9
+U 1 1 569E48C2
+P 3500 3900
+F 0 "LEDG9" H 3500 4000 50  0000 C CNN
+F 1 "LED" H 3500 3800 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 3500 3900 60  0001 C CNN
+F 3 "" H 3500 3900 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    3500 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG2
+U 1 1 569E4964
+P 2300 2900
+F 0 "LEDG2" H 2300 3000 50  0000 C CNN
+F 1 "LED" H 2300 2800 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 2300 2900 60  0001 C CNN
+F 3 "" H 2300 2900 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    2300 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG13
+U 1 1 569E4E30
+P 3800 2900
+F 0 "LEDG13" H 3800 3000 50  0000 C CNN
+F 1 "LED" H 3800 2800 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 3800 2900 60  0001 C CNN
+F 3 "" H 3800 2900 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    3800 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG7
+U 1 1 569E4EF0
+P 3200 2400
+F 0 "LEDG7" H 3200 2500 50  0000 C CNN
+F 1 "LED" H 3200 2300 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 3200 2400 60  0001 C CNN
+F 3 "" H 3200 2400 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    3200 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG12
+U 1 1 569E4FA9
+P 3800 2400
+F 0 "LEDG12" H 3800 2500 50  0000 C CNN
+F 1 "LED" H 3800 2300 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 3800 2400 60  0001 C CNN
+F 3 "" H 3800 2400 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    3800 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG6
+U 1 1 569E5293
+P 3200 1900
+F 0 "LEDG6" H 3200 2000 50  0000 C CNN
+F 1 "LED" H 3200 1800 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 3200 1900 60  0001 C CNN
+F 3 "" H 3200 1900 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    3200 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LEDG11
+U 1 1 569E5348
+P 3800 1900
+F 0 "LEDG11" H 3800 2000 50  0000 C CNN
+F 1 "LED" H 3800 1800 50  0000 C CNN
+F 2 "prettylib:LED_1206" H 3800 1900 60  0001 C CNN
+F 3 "" H 3800 1900 60  0000 C CNN
+F 4 "2V ~20mA 1206 SMD LED" H 3500 3900 60  0001 C CNN "Description"
+	1    3800 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED28_2
+U 1 1 569E7A02
+P 4600 1900
+F 0 "LED28_2" H 4600 2000 50  0000 C CNN
+F 1 "LED" H 4600 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4600 1900 60  0001 C CNN
+F 3 "" H 4600 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4600 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED30_3
+U 1 1 569E7AB4
+P 4400 2900
+F 0 "LED30_3" H 4400 3000 50  0000 C CNN
+F 1 "LED" H 4400 2800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4400 2900 60  0001 C CNN
+F 3 "" H 4400 2900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 1650 1900 60  0001 C CNN "Description"
+	1    4400 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED29_2
+U 1 1 569E7B7B
+P 4300 2400
+F 0 "LED29_2" H 4300 2500 50  0000 C CNN
+F 1 "LED" H 4300 2300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4300 2400 60  0001 C CNN
+F 3 "" H 4300 2400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4300 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED29_4
+U 1 1 569E7C3D
+P 4100 2400
+F 0 "LED29_4" H 4100 2500 50  0000 C CNN
+F 1 "LED" H 4100 2300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4100 2400 60  0001 C CNN
+F 3 "" H 4100 2400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4100 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED31_2
+U 1 1 569E7D04
+P 4750 3400
+F 0 "LED31_2" H 4750 3500 50  0000 C CNN
+F 1 "LED" H 4750 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4750 3400 60  0001 C CNN
+F 3 "" H 4750 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4750 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED27_2
+U 1 1 569E7DE2
+P 3850 3400
+F 0 "LED27_2" H 3850 3500 50  0000 C CNN
+F 1 "LED" H 3850 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 3850 3400 60  0001 C CNN
+F 3 "" H 3850 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    3850 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED30
+U 1 1 569E7EB7
+P 4100 2900
+F 0 "LED30" H 4100 3000 50  0000 C CNN
+F 1 "LED" H 4100 2800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4100 2900 60  0001 C CNN
+F 3 "" H 4100 2900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4100 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED27_3
+U 1 1 569EB03F
+P 4050 3400
+F 0 "LED27_3" H 4050 3500 50  0000 C CNN
+F 1 "LED" H 4050 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4050 3400 60  0001 C CNN
+F 3 "" H 4050 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4050 3400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4400 2700
+Connection ~ 3650 4100
+Connection ~ 3950 2600
+Connection ~ 3950 3100
+Wire Wire Line
+	3950 5200 3950 2100
+Connection ~ 2150 3100
+Connection ~ 2300 2700
+Wire Wire Line
+	1500 3700 4400 3700
+Wire Wire Line
+	1800 1700 1800 4900
+Wire Wire Line
+	2150 2100 2150 4900
+Wire Wire Line
+	2450 2100 2450 4900
+Wire Wire Line
+	2750 2100 2750 4900
+Connection ~ 4550 2600
+Connection ~ 4550 3100
+Connection ~ 4550 3600
+Connection ~ 3950 3600
+Connection ~ 3650 3600
+Wire Wire Line
+	3650 3600 3500 3600
+Connection ~ 3650 3100
+Wire Wire Line
+	3650 3100 3500 3100
+Connection ~ 3650 2600
+Wire Wire Line
+	3500 2600 3650 2600
+Connection ~ 3350 3100
+Connection ~ 3350 2600
+Wire Wire Line
+	2750 4100 2900 4100
+Connection ~ 3050 3700
+Connection ~ 3050 3100
+Wire Wire Line
+	3050 3100 2900 3100
+Connection ~ 3050 2600
+Wire Wire Line
+	2900 2600 3050 2600
+Wire Wire Line
+	3650 2100 3500 2100
+Wire Wire Line
+	3350 2100 3200 2100
+Wire Wire Line
+	2900 2100 3050 2100
+Connection ~ 2750 3200
+Wire Wire Line
+	2450 4100 2600 4100
+Connection ~ 2450 3600
+Wire Wire Line
+	2450 3600 2600 3600
+Connection ~ 2750 3100
+Wire Wire Line
+	2750 3100 2600 3100
+Connection ~ 2750 2600
+Wire Wire Line
+	2600 2600 2750 2600
+Wire Wire Line
+	2600 2100 2750 2100
+Connection ~ 3850 3200
+Connection ~ 3800 2700
+Connection ~ 3800 2200
+Connection ~ 3800 1700
+Connection ~ 3500 3200
+Connection ~ 3500 2700
+Connection ~ 3500 2200
+Connection ~ 3500 1700
+Connection ~ 3200 2700
+Connection ~ 3200 2200
+Connection ~ 3200 1700
+Connection ~ 2900 3700
+Connection ~ 2900 2700
+Connection ~ 2900 2200
+Connection ~ 2900 1700
+Connection ~ 2600 3700
+Connection ~ 2600 3200
+Connection ~ 2600 2700
+Connection ~ 2600 2200
+Connection ~ 2600 1700
+Connection ~ 2450 2700
+Wire Wire Line
+	2150 4100 2300 4100
+Connection ~ 2150 3600
+Wire Wire Line
+	2150 3600 2300 3600
+Connection ~ 2300 3700
+Connection ~ 2300 3200
+Connection ~ 2150 2200
+Connection ~ 2000 2200
+Connection ~ 2000 2700
+Connection ~ 2000 3200
+Connection ~ 2000 3700
+Wire Wire Line
+	1800 4100 2000 4100
+Wire Wire Line
+	1800 3600 2000 3600
+Wire Wire Line
+	1800 3100 2000 3100
+Wire Wire Line
+	1800 2600 2000 2600
+Connection ~ 1800 2600
+Connection ~ 1800 3100
+Connection ~ 1800 3600
+Connection ~ 1800 1700
+Wire Wire Line
+	1500 5700 4550 5700
+Wire Wire Line
+	4550 5700 4550 2100
+Wire Wire Line
+	3200 3600 3350 3600
+Connection ~ 3350 3600
+Connection ~ 3200 3200
+Connection ~ 2000 1700
+Connection ~ 2300 1700
+Connection ~ 2300 2200
+Wire Wire Line
+	2000 2100 2150 2100
+Wire Wire Line
+	2300 2100 2450 2100
+Wire Wire Line
+	2300 2600 2450 2600
+Connection ~ 2450 2600
+Wire Wire Line
+	2900 3600 3050 3600
+Connection ~ 3050 3600
+Wire Wire Line
+	3200 4100 3350 4100
+Connection ~ 3350 4100
+Connection ~ 3200 3700
+Connection ~ 2900 3200
+Wire Wire Line
+	3950 5200 1500 5200
+Wire Wire Line
+	3650 2100 3650 5100
+Wire Wire Line
+	3050 2100 3050 4900
+Wire Wire Line
+	3950 2100 3800 2100
+Wire Wire Line
+	3800 2600 3950 2600
+Wire Wire Line
+	3950 3100 3800 3100
+Wire Wire Line
+	2750 4400 3000 4400
+Connection ~ 2750 4100
+Wire Wire Line
+	3000 4000 3000 3700
+Connection ~ 3000 3700
+Wire Wire Line
+	3400 3750 3650 3750
+Connection ~ 3650 3750
+Wire Wire Line
+	3400 3350 3400 3200
+Connection ~ 3400 3200
+Wire Wire Line
+	3350 3100 3200 3100
+Wire Wire Line
+	3650 5100 1500 5100
+Wire Wire Line
+	1800 4900 2000 4900
+Connection ~ 1800 4100
+Wire Wire Line
+	2150 4900 2300 4900
+Connection ~ 2150 4100
+Wire Wire Line
+	2450 4900 2600 4900
+Connection ~ 2450 4100
+Connection ~ 2750 4400
+Wire Wire Line
+	3800 4100 3950 4100
+Connection ~ 3950 4100
+Wire Wire Line
+	4550 4100 4400 4100
+Connection ~ 4550 4100
+Wire Wire Line
+	3200 2600 3350 2600
+Wire Wire Line
+	2150 3100 2300 3100
+Wire Wire Line
+	3500 4100 3650 4100
+Wire Wire Line
+	3050 4900 3200 4900
+Wire Wire Line
+	2750 4900 2900 4900
+Wire Wire Line
+	3800 4900 3950 4900
+Connection ~ 3950 4900
+Connection ~ 2000 4500
+Connection ~ 2300 4500
+Connection ~ 2600 4500
+Connection ~ 2900 4500
+Connection ~ 3200 4500
+Connection ~ 3500 4500
+Connection ~ 3800 4500
+Wire Wire Line
+	3500 4900 3650 4900
+Connection ~ 3650 4900
+Connection ~ 3350 4500
+Wire Wire Line
+	3350 4500 3350 2100
+Wire Wire Line
+	3800 4500 1500 4500
+Connection ~ 3800 3700
+Connection ~ 3500 3700
+Connection ~ 4400 1700
+Connection ~ 4500 2100
+Connection ~ 4400 2100
+Connection ~ 4400 2600
+Connection ~ 4400 2200
+Connection ~ 4400 3100
+Connection ~ 4400 3200
+Connection ~ 4100 2700
+Connection ~ 4100 2200
+Connection ~ 4100 1700
+Connection ~ 4750 3600
+Connection ~ 4750 3200
+Connection ~ 4050 3600
+Connection ~ 3750 3200
+Connection ~ 4050 3200
+Wire Wire Line
+	4750 3200 1500 3200
+Wire Wire Line
+	4750 3600 4400 3600
+$Comp
+L LED LED29_3
+U 1 1 56AF39EC
+P 4200 2400
+F 0 "LED29_3" H 4200 2500 50  0000 C CNN
+F 1 "LED" H 4200 2300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4200 2400 60  0001 C CNN
+F 3 "" H 4200 2400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4200 2400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4200 2200
+Connection ~ 4300 2200
+Connection ~ 4300 2600
+Connection ~ 4200 2600
+$Comp
+L LED LED27_4
+U 1 1 56AF4FFE
+P 4150 3400
+F 0 "LED27_4" H 4150 3500 50  0000 C CNN
+F 1 "LED" H 4150 3300 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4150 3400 60  0001 C CNN
+F 3 "" H 4150 3400 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4150 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 3600 3750 3600
+Connection ~ 3850 3600
+Connection ~ 4150 3200
+Wire Wire Line
+	4100 2600 4550 2600
+Wire Wire Line
+	4400 2200 1500 2200
+$Comp
+L LED LED28_3
+U 1 1 56AF6A51
+P 4500 1900
+F 0 "LED28_3" H 4500 2000 50  0000 C CNN
+F 1 "LED" H 4500 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4500 1900 60  0001 C CNN
+F 3 "" H 4500 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4500 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED28_4
+U 1 1 56AF6B9B
+P 4400 1900
+F 0 "LED28_4" H 4400 2000 50  0000 C CNN
+F 1 "LED" H 4400 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4400 1900 60  0001 C CNN
+F 3 "" H 4400 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4400 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED28_5
+U 1 1 56AF6CEA
+P 4300 1900
+F 0 "LED28_5" H 4300 2000 50  0000 C CNN
+F 1 "LED" H 4300 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4300 1900 60  0001 C CNN
+F 3 "" H 4300 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4300 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED28_6
+U 1 1 56AF6EFE
+P 4200 1900
+F 0 "LED28_6" H 4200 2000 50  0000 C CNN
+F 1 "LED" H 4200 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4200 1900 60  0001 C CNN
+F 3 "" H 4200 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4200 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED28_7
+U 1 1 56AF7097
+P 4100 1900
+F 0 "LED28_7" H 4100 2000 50  0000 C CNN
+F 1 "LED" H 4100 1800 50  0000 C CNN
+F 2 "prettylib:INSW_LEDS_REG" H 4100 1900 60  0001 C CNN
+F 3 "" H 4100 1900 60  0000 C CNN
+F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1900 60  0001 C CNN "Description"
+	1    4100 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 1700 1500 1700
+Wire Wire Line
+	4700 2100 4100 2100
+Connection ~ 4200 1700
+Connection ~ 4300 1700
+Connection ~ 4500 1700
+Connection ~ 4600 1700
+Connection ~ 4200 2100
+Connection ~ 4300 2100
+Connection ~ 4600 2100
+Connection ~ 4550 2100
+Connection ~ 4250 3100
+Connection ~ 4250 2700
+Wire Wire Line
+	4400 2700 1500 2700
+Wire Wire Line
+	4100 3100 4550 3100
+$EndSCHEMATC
