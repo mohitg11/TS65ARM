@@ -26,3 +26,6 @@ This is a custom 65% style keyboard that is split in the middle to provide a mor
 - Off-center capslock
 - 2.75 and 1.75 right shift
 - Lots of options for bottom row
+
+In the below image you can see the different options available, the top four rows represent the four rows of th keyboard and the options for the final keyboard row is represented by the remaining rows in the image.
+![Layout Options](layouts.png)
