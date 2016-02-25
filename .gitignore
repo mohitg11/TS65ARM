@@ -47,6 +47,7 @@ Temporary Items
 .apdisk
 .apdisk
 *.bak
+*.bck
 *.kicad_pcb-bak
-TS65 - Left/TS65Left-cache.lib
-TS65 - Right/TS65Right-cache.lib
+PCB/TS65-cache.lib
+Local/*

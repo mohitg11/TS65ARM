@@ -1,11 +1,67 @@
-Cmp-Mod V01 Created by PcbNew   date = 2/8/2016 10:37:02 PM
+Cmp-Mod V01 Created by PcbNew   date = 2/25/2016 3:38:11 PM
 
 BeginCmp
-TimeStamp = 56ADC6E7
-Path = /54B2C0DD/56AF4FFE
-Reference = LED27_4;
-ValeurCmp = LED;
-IdModule  = prettylib:INSW_LEDS_REG;
+TimeStamp = 4E03588A
+Path = /56B8CE1F
+Reference = SR10;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 54F19FA5
+Path = /56B8CE15
+Reference = SR5;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56AC9109
+Path = /56B8CE53/56A7B5A6
+Reference = PR1;
+ValeurCmp = USB_TYPE_C;
+IdModule  = prettylib:USB_TYPE_C_HYBRID;
+EndCmp
+
+BeginCmp
+TimeStamp = 569DAE95
+Path = /549878F0/55307B33
+Reference = P3;
+ValeurCmp = CONN_15;
+IdModule  = prettylib:HEADER_1x15;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C3B5BE
+Path = /549878F0/56CF0A04
+Reference = P4;
+ValeurCmp = FLASH_HDR;
+IdModule  = prettylib:JLINK_NEEDLE;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD49A3
+Path = /56B8CE64
+Reference = SR37_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56AD0198
+Path = /56B8CE72
+Reference = SR37_3;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FE866
+Path = /56B8CE4C
+Reference = SR35;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
 EndCmp
 
 BeginCmp
@@ -13,15 +69,871 @@ TimeStamp = 56ADC4DB
 Path = /56AEB535
 Reference = S27_4;
 ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
+IdModule  = prettylib:MXALPS2;
 EndCmp
 
 BeginCmp
-TimeStamp = 56ADC3FB
-Path = /4E2BFA0F
-Reference = STAB5;
-ValeurCmp = MX_225;
-IdModule  = prettylib:MX_225;
+TimeStamp = 56ADBE6D
+Path = /56AEE649
+Reference = S28_5;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ADBE18
+Path = /56AEE42D
+Reference = S28_4;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ADBD6A
+Path = /56AED7AC
+Reference = S28_3;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ADBD14
+Path = /569DAF24
+Reference = S28_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ADBC35
+Path = /56AEF491
+Reference = S28_6;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ADB431
+Path = /56AE1C8B
+Reference = S29_4;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D7A6D
+Path = /569DB137
+Reference = S27_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035832
+Path = /569DB34B
+Reference = S27_3;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD35E3
+Path = /549A1D85
+Reference = S3;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035888
+Path = /549A1DE5
+Reference = S10;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4F3FE645
+Path = /549A1F11
+Reference = S29;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03582A
+Path = /549A1F29
+Reference = S31;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D7AE4
+Path = /569CEE7C
+Reference = S31_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 549A6462
+Path = /549A1E09
+Reference = S13;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD3627
+Path = /549A1D79
+Reference = S2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569BA528
+Path = /569D3FCD
+Reference = S20;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035830
+Path = /549A1F05
+Reference = S28;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD44B3
+Path = /549A1E81
+Reference = S21;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03584A
+Path = /549A1E8D
+Reference = S22;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD4991
+Path = /549A1EB1
+Reference = S25;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5494D262
+Path = /549A1EBD
+Reference = S26;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569BA0EA
+Path = /569CC8BD
+Reference = S26_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD3976
+Path = /549A1EA5
+Reference = S24;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035848
+Path = /549A1E99
+Reference = S23;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD497F
+Path = /549A1E45
+Reference = S18;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5494D2EB
+Path = /549A1E51
+Reference = S19;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035868
+Path = /549A1E39
+Reference = S17;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03586A
+Path = /549A1E2D
+Reference = S16;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03586E
+Path = /549A1E15
+Reference = S14;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035886
+Path = /549A1DF1
+Reference = S11;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03588A
+Path = /549A1DD9
+Reference = S9;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD3638
+Path = /549A1D53
+Reference = S1;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03588C
+Path = /549A1DCD
+Reference = S8;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03586C
+Path = /549A1E21
+Reference = S15;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035884
+Path = /549A1DFD
+Reference = S12;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D7A7E
+Path = /549A1EF9
+Reference = S27;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D7A8F
+Path = /56AEF7EC
+Reference = S28_7;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D7AA0
+Path = /569DA2E8
+Reference = S29_3;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D7AB1
+Path = /569DA0DF
+Reference = S29_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D7AC2
+Path = /549A1F1D
+Reference = S30;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D7AD3
+Path = /569D9ED9
+Reference = S30_3;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD49A3
+Path = /569D9CD2
+Reference = S30_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56AE143D
+Path = /56B8CE65
+Reference = SR36_5;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ACFE7F
+Path = /56B8CE75
+Reference = SR36_4;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FE85D
+Path = /56B8CE62
+Reference = SR36_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56AD04B7
+Path = /56B8CE61
+Reference = SR38_3;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56AD00E8
+Path = /56B8CE74
+Reference = SR37_5;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56AD0064
+Path = /56B8CE4E
+Reference = SR37;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ACEF19
+Path = /56B8CE6F
+Reference = SR35_3;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ACED70
+Path = /56B8CE6D
+Reference = SR34_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ACECBD
+Path = /56B8CE6C
+Reference = SR33_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03582A
+Path = /56B8CE50
+Reference = SR38;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FE86F
+Path = /56B8CE70
+Reference = SR36_3;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD35E3
+Path = /56B8CE11
+Reference = SR3;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035888
+Path = /56B8CE21
+Reference = SR11;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 549A6462
+Path = /56B8CE27
+Reference = SR14;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD35F4
+Path = /56B8CE13
+Reference = SR4;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD3627
+Path = /56B8CE0F
+Reference = SR2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569BA528
+Path = /56B8CE37
+Reference = SR23;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD44B3
+Path = /56B8CE39
+Reference = SR24;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03584A
+Path = /56B8CE3B
+Reference = SR25;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD4991
+Path = /56B8CE41
+Reference = SR28;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5494D262
+Path = /56B8CE43
+Reference = SR29;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD3976
+Path = /56B8CE3F
+Reference = SR27;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035848
+Path = /56B8CE3D
+Reference = SR26;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD497F
+Path = /56B8CE31
+Reference = SR19;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035868
+Path = /56B8CE2F
+Reference = SR18;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03586A
+Path = /56B8CE2D
+Reference = SR17;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03586E
+Path = /56B8CE29
+Reference = SR15;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035886
+Path = /56B8CE23
+Reference = SR12;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD3638
+Path = /56B8CE0D
+Reference = SR1;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03588C
+Path = /56B8CE1D
+Reference = SR9;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5494D2A9
+Path = /56B8CE19
+Reference = SR7;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD3616
+Path = /56B8CE17
+Reference = SR6;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E03586C
+Path = /56B8CE2B
+Reference = SR16;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035884
+Path = /56B8CE25
+Reference = SR13;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FC2B5
+Path = /56B8CE1B
+Reference = SR8;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FC2BE
+Path = /56B8CE35
+Reference = SR22;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FC30F
+Path = /56B8CE54
+Reference = SR21;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FC318
+Path = /56B8CE56
+Reference = SR30;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FC321
+Path = /56B8CE58
+Reference = SR31;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FC32A
+Path = /56B8CE5A
+Reference = SR39;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FC333
+Path = /56B8CE5E
+Reference = SR40;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FC33C
+Path = /56B8CE5C
+Reference = SR41;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FDE88
+Path = /56B8CE33
+Reference = SR20;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FE839
+Path = /56B8CE45
+Reference = SR32;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FE842
+Path = /56B8CE47
+Reference = SR33;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FE84B
+Path = /56B8CE48
+Reference = SR34;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FE881
+Path = /56B8CE73
+Reference = SR37_4;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FE893
+Path = /56B8CE71
+Reference = SR38_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FE89C
+Path = /56B8CE66
+Reference = SR30_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FE8A5
+Path = /56B8CE69
+Reference = SR42;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FE8AE
+Path = /56B8CE6B
+Reference = SR41_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56A2510B
+Path = /56B8CE68
+Reference = SR24_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ACB20B
+Path = /56B8CE67
+Reference = SR41_3;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56AD013D
+Path = /56B8CE76
+Reference = SR37_6;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56AE144E
+Path = /56B8CE63
+Reference = SR37_7;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD35F4
+Path = /549A1D91
+Reference = S4;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 54F19FA5
+Path = /549A1D9D
+Reference = S5;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 4FFD3616
+Path = /549A1DA9
+Reference = S6;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5494D2A9
+Path = /549A1DB5
+Reference = S7;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 569B8E83
+Path = /569BCE0E
+Reference = S19_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56A7BFF2
+Path = /549878F0/56C7D336
+Reference = P1;
+ValeurCmp = USB_TYPE_C;
+IdModule  = prettylib:USB_TYPE_C_HYBRID;
+EndCmp
+
+BeginCmp
+TimeStamp = 56A745BD
+Path = /56C7A6A7
+Reference = STABR5;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D7FF0
+Path = /56C6EF7A
+Reference = STAB3;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 56A109DF
+Path = /56C6F49D
+Reference = STAB4;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 54F1B6E1
+Path = /56B8CE53/4E418482
+Reference = LEDDR1;
+ValeurCmp = LED;
+IdModule  = prettylib:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ADC6E7
+Path = /54B2C0DD/56AF4FFE
+Reference = LED27_4;
+ValeurCmp = LED;
+IdModule  = prettylib:INSW_LEDS_REG;
 EndCmp
 
 BeginCmp
@@ -65,46 +977,6 @@ IdModule  = prettylib:INSW_LEDS_REG;
 EndCmp
 
 BeginCmp
-TimeStamp = 56ADBE6D
-Path = /56AEE649
-Reference = S28_5;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56ADBE18
-Path = /56AEE42D
-Reference = S28_4;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56ADBD6A
-Path = /56AED7AC
-Reference = S28_3;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56ADBD14
-Path = /569DAF24
-Reference = S28_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56ADBC35
-Path = /56AEF491
-Reference = S28_6;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 56ADB497
 Path = /54B2C0DD/569E7C3D
 Reference = LED29_4;
@@ -113,18 +985,10 @@ IdModule  = prettylib:INSW_LEDS_REG;
 EndCmp
 
 BeginCmp
-TimeStamp = 56ADB431
-Path = /56AE1C8B
-Reference = S29_4;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 56ACC856
-Path = 
+Path = /56C5DCB5
 Reference = LOGO4;
-ValeurCmp = OSHW;
+ValeurCmp = MISC;
 IdModule  = prettylib:OSHW;
 EndCmp
 
@@ -138,7 +1002,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 549A62B5
-Path = /549878F0/553097EE
+Path = /549878F0/56C7D32B
 Reference = C1;
 ValeurCmp = 1uF;
 IdModule  = prettylib:SMD_0805;
@@ -161,43 +1025,11 @@ IdModule  = prettylib:SMD_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 569D7A6D
-Path = /569DB137
-Reference = S27_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035832
-Path = /569DB34B
-Reference = S27_3;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 549A619C
 Path = /549A1D8B
 Reference = D3;
 ValeurCmp = DIODE;
 IdModule  = prettylib:SOD123-DIODE;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD35E3
-Path = /549A1D85
-Reference = S3;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035888
-Path = /549A1DE5
-Reference = S10;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
 EndCmp
 
 BeginCmp
@@ -209,78 +1041,6 @@ IdModule  = prettylib:TACT_5.2x5.2;
 EndCmp
 
 BeginCmp
-TimeStamp = 569D8019
-Path = /4E2BFA0F
-Reference = STAB2;
-ValeurCmp = MX_275;
-IdModule  = prettylib:MX_275;
-EndCmp
-
-BeginCmp
-TimeStamp = 4F3FE645
-Path = /549A1F11
-Reference = S29;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569D34F0
-Path = /4E2BFA0F
-Reference = STAB1;
-ValeurCmp = MX_225;
-IdModule  = prettylib:MX_225;
-EndCmp
-
-BeginCmp
-TimeStamp = 569D7FF0
-Path = /4E2BFA0F
-Reference = STAB3;
-ValeurCmp = MX_225;
-IdModule  = prettylib:MX_225;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03582A
-Path = /549A1F29
-Reference = S31;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569D7AE4
-Path = /569CEE7C
-Reference = S31_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 549A6462
-Path = /549A1E09
-Reference = S13;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD35F4
-Path = /549A1D91
-Reference = S4;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF504
-Path = /54B2C0DD/569E48C2
-Reference = LEDG9;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
 TimeStamp = 54F1B489
 Path = /549878F0/54B3EF86
 Reference = U2;
@@ -289,195 +1049,11 @@ IdModule  = prettylib:SSOP-28;
 EndCmp
 
 BeginCmp
-TimeStamp = 4FFD3627
-Path = /549A1D79
-Reference = S2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 54B30D1C
 Path = /54B2C0DD/5593211C
 Reference = LED2;
 ValeurCmp = LED;
 IdModule  = prettylib:INSW_LEDS_REG;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BA528
-Path = /569D3FCD
-Reference = S20;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035830
-Path = /549A1F05
-Reference = S28;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD44B3
-Path = /549A1E81
-Reference = S21;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03584A
-Path = /549A1E8D
-Reference = S22;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD4991
-Path = /549A1EB1
-Reference = S25;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 5494D262
-Path = /549A1EBD
-Reference = S26;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BA0EA
-Path = /569CC8BD
-Reference = S26_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD3976
-Path = /549A1EA5
-Reference = S24;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035848
-Path = /549A1E99
-Reference = S23;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD497F
-Path = /549A1E45
-Reference = S18;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569B8E83
-Path = /569BCE0E
-Reference = S19_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 5494D2EB
-Path = /549A1E51
-Reference = S19;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035868
-Path = /549A1E39
-Reference = S17;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03586A
-Path = /549A1E2D
-Reference = S16;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03586E
-Path = /549A1E15
-Reference = S14;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035886
-Path = /549A1DF1
-Reference = S11;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03588A
-Path = /549A1DD9
-Reference = S9;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD3638
-Path = /549A1D53
-Reference = S1;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03588C
-Path = /549A1DCD
-Reference = S8;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 5494D2A9
-Path = /549A1DB5
-Reference = S7;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD3616
-Path = /549A1DA9
-Reference = S6;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 54F19FA5
-Path = /549A1D9D
-Reference = S5;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
 EndCmp
 
 BeginCmp
@@ -961,22 +1537,6 @@ IdModule  = prettylib:SOD123-DIODE;
 EndCmp
 
 BeginCmp
-TimeStamp = 4E03586C
-Path = /549A1E21
-Reference = S15;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035884
-Path = /549A1DFD
-Reference = S12;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 569B8575
 Path = /54B2C0DD/569BFFE2
 Reference = LED19_2;
@@ -1006,166 +1566,6 @@ Path = /54B2C0DD/569D82C6
 Reference = LED20;
 ValeurCmp = LED;
 IdModule  = prettylib:INSW_LEDS_REG;
-EndCmp
-
-BeginCmp
-TimeStamp = 54F1B6E1
-Path = /549878F0/4E418482
-Reference = LEDD1;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF52E
-Path = /54B2C0DD/569E46EC
-Reference = LEDG16;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF528
-Path = /54B2C0DD/569E45C9
-Reference = LEDG15;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF522
-Path = /54B2C0DD/569E4796
-Reference = LEDG14;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF51C
-Path = /54B2C0DD/569E4E30
-Reference = LEDG13;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF516
-Path = /54B2C0DD/569E4FA9
-Reference = LEDG12;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF510
-Path = /54B2C0DD/569E5348
-Reference = LEDG11;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF50A
-Path = /54B2C0DD/569E453A
-Reference = LEDG10;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF4FE
-Path = /54B2C0DD/569E44A8
-Reference = LEDG8;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF4F8
-Path = /54B2C0DD/569E4EF0
-Reference = LEDG7;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF4F2
-Path = /54B2C0DD/569E5293
-Reference = LEDG6;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF4EC
-Path = /54B2C0DD/569E43AE
-Reference = LEDG5;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF4E6
-Path = /54B2C0DD/569E4215
-Reference = LEDG4;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF4E0
-Path = /54B2C0DD/569E41C9
-Reference = LEDG3;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF4DA
-Path = /54B2C0DD/569E4964
-Reference = LEDG2;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BF4D4
-Path = /54B2C0DD/569E24CC
-Reference = LEDG1;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569D7A7E
-Path = /549A1EF9
-Reference = S27;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569D7A8F
-Path = /56AEF7EC
-Reference = S28_7;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569D7AA0
-Path = /569DA2E8
-Reference = S29_3;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569D7AB1
-Path = /569DA0DF
-Reference = S29_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
 EndCmp
 
 BeginCmp
@@ -1233,14 +1633,6 @@ IdModule  = prettylib:INSW_LEDS_REG;
 EndCmp
 
 BeginCmp
-TimeStamp = 569DAE95
-Path = /549878F0/55307B33
-Reference = P3;
-ValeurCmp = CONN_17;
-IdModule  = prettylib:HEADER_1x17;
-EndCmp
-
-BeginCmp
 TimeStamp = 549A62C9
 Path = /549878F0/4F22C606
 Reference = C7;
@@ -1250,7 +1642,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 549A9857
-Path = /549878F0/552B5F6B
+Path = /549878F0/56C7D31A
 Reference = C2;
 ValeurCmp = 1uF;
 IdModule  = prettylib:SMD_0805;
@@ -1290,7 +1682,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 549A62AB
-Path = /549878F0/539C9F35
+Path = /549878F0/56C7D2E9
 Reference = R2;
 ValeurCmp = 33;
 IdModule  = prettylib:SMD_0805;
@@ -1298,7 +1690,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 54F1AF05
-Path = /549878F0/539C9F3B
+Path = /549878F0/56C7D2F4
 Reference = R1;
 ValeurCmp = 33;
 IdModule  = prettylib:SMD_0805;
@@ -1361,50 +1753,42 @@ IdModule  = prettylib:SMD_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 56A109DF
-Path = 
-Reference = STAB4;
-ValeurCmp = MX_225_Plated;
-IdModule  = prettylib:MX_225;
-EndCmp
-
-BeginCmp
 TimeStamp = 56A66C73
-Path = 
+Path = /56C96738
 Reference = HOLE1;
-ValeurCmp = [NoVal];
+ValeurCmp = MISC;
 IdModule  = prettylib:FID;
 EndCmp
 
 BeginCmp
 TimeStamp = 56A67440
-Path = 
+Path = /56C68D5E
 Reference = FID1;
-ValeurCmp = [NoVal];
+ValeurCmp = MISC;
 IdModule  = prettylib:FID;
 EndCmp
 
 BeginCmp
 TimeStamp = 56A67454
-Path = 
+Path = /56C68846
 Reference = FID2;
-ValeurCmp = [NoVal];
+ValeurCmp = MISC;
 IdModule  = prettylib:FID;
 EndCmp
 
 BeginCmp
 TimeStamp = 56A6745E
-Path = 
+Path = /56C68333
 Reference = FID3;
-ValeurCmp = [NoVal];
+ValeurCmp = MISC;
 IdModule  = prettylib:FID;
 EndCmp
 
 BeginCmp
 TimeStamp = 56A67470
-Path = 
+Path = /56C672F7
 Reference = FID4;
-ValeurCmp = [NoVal];
+ValeurCmp = MISC;
 IdModule  = prettylib:FID;
 EndCmp
 
@@ -1418,7 +1802,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 56A7BFFE
-Path = /549878F0/56A8261E
+Path = /549878F0/56C7D358
 Reference = R9;
 ValeurCmp = 5.1k;
 IdModule  = prettylib:SMD_0805;
@@ -1426,7 +1810,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 56A7C00A
-Path = /549878F0/56A824B7
+Path = /549878F0/56C7D347
 Reference = R10;
 ValeurCmp = 5.1k;
 IdModule  = prettylib:SMD_0805;
@@ -1434,114 +1818,34 @@ EndCmp
 
 BeginCmp
 TimeStamp = 56ACC5A7
-Path = 
+Path = /56C63178
 Reference = LOGO1;
-ValeurCmp = LOGO;
+ValeurCmp = MISC;
 IdModule  = prettylib:TS65-LOGO;
 EndCmp
 
 BeginCmp
 TimeStamp = 56ACC5E0
-Path = 
+Path = /56C62C6E
 Reference = LOGO2;
-ValeurCmp = LOGO;
+ValeurCmp = MISC;
 IdModule  = prettylib:TS65-LOGO;
 EndCmp
 
 BeginCmp
 TimeStamp = 56ACC7F7
-Path = 
+Path = /56C6226C
 Reference = LOGO3;
-ValeurCmp = OSHW;
+ValeurCmp = MISC;
 IdModule  = prettylib:OSHW;
 EndCmp
 
 BeginCmp
-TimeStamp = 569D7AC2
-Path = /549A1F1D
-Reference = S30;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569D7AD3
-Path = /569D9ED9
-Reference = S30_3;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD49A3
-Path = /569D9CD2
-Reference = S30_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A7BFF2
-Path = /549878F0/56A7956A
-Reference = P1;
-ValeurCmp = USB_TYPE_C;
-IdModule  = prettylib:USB_TYPE_C_HYBRID;
-EndCmp
-
-BeginCmp
 TimeStamp = 553489B1
-Path = /549878F0/55226CE5
+Path = /549878F0/56C7D309
 Reference = Q1;
 ValeurCmp = 3.3V REG IC;
 IdModule  = prettylib:SOT-223;
-EndCmp
-
-BeginCmp
-TimeStamp = 56AE143D
-Path = /56B8CE65
-Reference = SR36_5;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56ACFE7F
-Path = /56B8CE75
-Reference = SR36_4;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FE85D
-Path = /56B8CE62
-Reference = SR36_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56AD04B7
-Path = /56B8CE61
-Reference = SR38_3;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56AD05C0
-Path = /4E2BFA0F
-Reference = STABR7;
-ValeurCmp = MX_275;
-IdModule  = prettylib:MX_275;
-EndCmp
-
-BeginCmp
-TimeStamp = 569D8019
-Path = /4E2BFA0F
-Reference = STABR1;
-ValeurCmp = MX_275;
-IdModule  = prettylib:MX_275;
 EndCmp
 
 BeginCmp
@@ -1577,30 +1881,6 @@ IdModule  = prettylib:INSW_LEDS_REG;
 EndCmp
 
 BeginCmp
-TimeStamp = 56AD0198
-Path = /56B8CE72
-Reference = SR37_3;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56AD00E8
-Path = /56B8CE74
-Reference = SR37_5;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56AD0064
-Path = /56B8CE4E
-Reference = SR37;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 56ACFFC7
 Path = /56B8CE52/56AED717
 Reference = LEDR36_4;
@@ -1625,35 +1905,11 @@ IdModule  = prettylib:INSW_LEDS_REG;
 EndCmp
 
 BeginCmp
-TimeStamp = 569FE866
-Path = /56B8CE4C
-Reference = SR35;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS2;
-EndCmp
-
-BeginCmp
-TimeStamp = 56ACEF19
-Path = /56B8CE6F
-Reference = SR35_3;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 56ACEE53
 Path = /56B8CE52/56AEC0F0
 Reference = LEDR34_2;
 ValeurCmp = LED;
 IdModule  = prettylib:INSW_LEDS_REG;
-EndCmp
-
-BeginCmp
-TimeStamp = 56ACED70
-Path = /56B8CE6D
-Reference = SR34_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
 EndCmp
 
 BeginCmp
@@ -1665,35 +1921,11 @@ IdModule  = prettylib:INSW_LEDS_REG;
 EndCmp
 
 BeginCmp
-TimeStamp = 56ACECBD
-Path = /56B8CE6C
-Reference = SR33_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 56ACE634
-Path = 
-Reference = LOGO3;
-ValeurCmp = OSHW;
+Path = /56C7A66B
+Reference = LOGOR4;
+ValeurCmp = MISC;
 IdModule  = prettylib:OSHW;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03582A
-Path = /56B8CE50
-Reference = SR38;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FE86F
-Path = /56B8CE70
-Reference = SR36_3;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
 EndCmp
 
 BeginCmp
@@ -1737,59 +1969,11 @@ IdModule  = prettylib:SOD123-DIODE;
 EndCmp
 
 BeginCmp
-TimeStamp = 4FFD35E3
-Path = /56B8CE11
-Reference = SR3;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035888
-Path = /56B8CE21
-Reference = SR11;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 549A6059
 Path = /56B8CE53/5533596A
 Reference = SRR1;
 ValeurCmp = TAC_SWITCH;
 IdModule  = prettylib:TACT_5.2x5.2;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD49A3
-Path = /56B8CE64
-Reference = SR37_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569D34F0
-Path = /4E2BFA0F
-Reference = STABR2;
-ValeurCmp = MX_225;
-IdModule  = prettylib:MX_225;
-EndCmp
-
-BeginCmp
-TimeStamp = 549A6462
-Path = /56B8CE27
-Reference = SR14;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD35F4
-Path = /56B8CE13
-Reference = SR4;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
 EndCmp
 
 BeginCmp
@@ -1809,163 +1993,11 @@ IdModule  = prettylib:SOT-223;
 EndCmp
 
 BeginCmp
-TimeStamp = 4FFD3627
-Path = /56B8CE0F
-Reference = SR2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 54B30D1C
 Path = /56B8CE52/5593211C
 Reference = LEDR31;
 ValeurCmp = LED;
 IdModule  = prettylib:INSW_LEDS_REG;
-EndCmp
-
-BeginCmp
-TimeStamp = 569BA528
-Path = /56B8CE37
-Reference = SR23;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD44B3
-Path = /56B8CE39
-Reference = SR24;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03584A
-Path = /56B8CE3B
-Reference = SR25;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD4991
-Path = /56B8CE41
-Reference = SR28;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 5494D262
-Path = /56B8CE43
-Reference = SR29;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD3976
-Path = /56B8CE3F
-Reference = SR27;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035848
-Path = /56B8CE3D
-Reference = SR26;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD497F
-Path = /56B8CE31
-Reference = SR19;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035868
-Path = /56B8CE2F
-Reference = SR18;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03586A
-Path = /56B8CE2D
-Reference = SR17;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03586E
-Path = /56B8CE29
-Reference = SR15;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035886
-Path = /56B8CE23
-Reference = SR12;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03588A
-Path = /56B8CE1F
-Reference = SR10;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD3638
-Path = /56B8CE0D
-Reference = SR1;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E03588C
-Path = /56B8CE1D
-Reference = SR9;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 5494D2A9
-Path = /56B8CE19
-Reference = SR7;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4FFD3616
-Path = /56B8CE17
-Reference = SR6;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 54F19FA5
-Path = /56B8CE15
-Reference = SR5;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
 EndCmp
 
 BeginCmp
@@ -2441,22 +2473,6 @@ IdModule  = prettylib:SOD123-DIODE;
 EndCmp
 
 BeginCmp
-TimeStamp = 4E03586C
-Path = /56B8CE2B
-Reference = SR16;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035884
-Path = /56B8CE25
-Reference = SR13;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 569BA51F
 Path = /56B8CE38
 Reference = DR23;
@@ -2470,22 +2486,6 @@ Path = /56B8CE52/559323B2
 Reference = LEDR17;
 ValeurCmp = LED;
 IdModule  = prettylib:INSW_LEDS_REG;
-EndCmp
-
-BeginCmp
-TimeStamp = 54F1B6E1
-Path = /56B8CE53/4E418482
-Reference = LEDDR1;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 569DAE95
-Path = /56B8CE53/55307B33
-Reference = PR3;
-ValeurCmp = CONN_17;
-IdModule  = prettylib:HEADER_1x17;
 EndCmp
 
 BeginCmp
@@ -2673,78 +2673,6 @@ IdModule  = prettylib:SOD123-DIODE;
 EndCmp
 
 BeginCmp
-TimeStamp = 569FC2B5
-Path = /56B8CE1B
-Reference = SR8;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FC2BE
-Path = /56B8CE35
-Reference = SR22;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FC30F
-Path = /56B8CE54
-Reference = SR21;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FC318
-Path = /56B8CE56
-Reference = SR30;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FC321
-Path = /56B8CE58
-Reference = SR31;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FC32A
-Path = /56B8CE5A
-Reference = SR39;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FC333
-Path = /56B8CE5E
-Reference = SR40;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FC33C
-Path = /56B8CE5C
-Reference = SR41;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FDE88
-Path = /56B8CE33
-Reference = SR20;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 569FE7FA
 Path = /56B8CE0E
 Reference = DR1;
@@ -2766,86 +2694,6 @@ Path = /56B8CE60
 Reference = DR33;
 ValeurCmp = DIODE;
 IdModule  = prettylib:SOD123-DIODE;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FE839
-Path = /56B8CE45
-Reference = SR32;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FE842
-Path = /56B8CE47
-Reference = SR33;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FE84B
-Path = /56B8CE48
-Reference = SR34;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FE881
-Path = /56B8CE73
-Reference = SR37_4;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FE893
-Path = /56B8CE71
-Reference = SR38_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FE89C
-Path = /56B8CE66
-Reference = SR30_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FE8A5
-Path = /56B8CE69
-Reference = SR42;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FE8AE
-Path = /56B8CE6B
-Reference = SR41_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FF627
-Path = 
-Reference = STABR3;
-ValeurCmp = MX_200;
-IdModule  = prettylib:MX_200;
-EndCmp
-
-BeginCmp
-TimeStamp = 569FF65B
-Path = 
-Reference = STABR4;
-ValeurCmp = MX_225_Plated;
-IdModule  = prettylib:MX_225;
 EndCmp
 
 BeginCmp
@@ -2993,150 +2841,6 @@ IdModule  = prettylib:INSW_LEDS_REG;
 EndCmp
 
 BeginCmp
-TimeStamp = 56A11FFE
-Path = /56B8CE52/56A24B2C
-Reference = LEDGR1;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A12004
-Path = /56B8CE52/56A250CA
-Reference = LEDGR2;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A1200A
-Path = /56B8CE52/56A2517B
-Reference = LEDGR3;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A12010
-Path = /56B8CE52/56A2522F
-Reference = LEDGR4;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A12016
-Path = /56B8CE52/56A252E6
-Reference = LEDGR5;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A1201C
-Path = /56B8CE52/56A253A4
-Reference = LEDGR6;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A12022
-Path = /56B8CE52/56A2609F
-Reference = LEDGR7;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A12028
-Path = /56B8CE52/56A2616B
-Reference = LEDGR8;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A1202E
-Path = /56B8CE52/56A2622C
-Reference = LEDGR9;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A12034
-Path = /56B8CE52/56A262F2
-Reference = LEDGR10;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A1203A
-Path = /56B8CE52/56A263BD
-Reference = LEDGR11;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A12040
-Path = /56B8CE52/56A26489
-Reference = LEDGR12;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A12046
-Path = /56B8CE52/56A26738
-Reference = LEDGR13;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A1204C
-Path = /56B8CE52/56A26853
-Reference = LEDGR14;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A12052
-Path = /56B8CE52/56A2692D
-Reference = LEDGR15;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A12058
-Path = /56B8CE52/56A26A10
-Reference = LEDGR16;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A1205E
-Path = /56B8CE52/56A26AEE
-Reference = LEDGR17;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A12064
-Path = /56B8CE52/56A26BCF
-Reference = LEDGR18;
-ValeurCmp = LED;
-IdModule  = prettylib:LED_1206;
-EndCmp
-
-BeginCmp
 TimeStamp = 56A250FA
 Path = /56B8CE52/56A298F7
 Reference = LEDR24_2;
@@ -3145,66 +2849,42 @@ IdModule  = prettylib:INSW_LEDS_REG;
 EndCmp
 
 BeginCmp
-TimeStamp = 56A2510B
-Path = /56B8CE68
-Reference = SR24_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56A25933
-Path = 
-Reference = STABR6;
-ValeurCmp = MX_275_Plated;
-IdModule  = prettylib:MX_275;
-EndCmp
-
-BeginCmp
 TimeStamp = 56A73DF4
-Path = 
-Reference = HOLE1;
-ValeurCmp = [NoVal];
+Path = /56C8EC13
+Reference = HOLER1;
+ValeurCmp = MISC;
 IdModule  = prettylib:FID;
 EndCmp
 
 BeginCmp
-TimeStamp = 56A745BD
-Path = 
-Reference = STABR5;
-ValeurCmp = MX_200;
-IdModule  = prettylib:MX_200;
-EndCmp
-
-BeginCmp
 TimeStamp = 56A74AB1
-Path = 
-Reference = FID1;
-ValeurCmp = [NoVal];
+Path = /56C7A695
+Reference = FIDR1;
+ValeurCmp = MISC;
 IdModule  = prettylib:FID;
 EndCmp
 
 BeginCmp
 TimeStamp = 56A74AB6
-Path = 
-Reference = FID2;
-ValeurCmp = [NoVal];
+Path = /56C7A68F
+Reference = FIDR2;
+ValeurCmp = MISC;
 IdModule  = prettylib:FID;
 EndCmp
 
 BeginCmp
 TimeStamp = 56A74ABB
-Path = 
-Reference = FID4;
-ValeurCmp = [NoVal];
+Path = /56C7A683
+Reference = FIDR4;
+ValeurCmp = MISC;
 IdModule  = prettylib:FID;
 EndCmp
 
 BeginCmp
 TimeStamp = 56A74AC0
-Path = 
-Reference = FID3;
-ValeurCmp = [NoVal];
+Path = /56C7A689
+Reference = FIDR3;
+ValeurCmp = MISC;
 IdModule  = prettylib:FID;
 EndCmp
 
@@ -3249,75 +2929,27 @@ IdModule  = prettylib:SOD123-DIODE;
 EndCmp
 
 BeginCmp
-TimeStamp = 56ACB20B
-Path = /56B8CE67
-Reference = SR41_3;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
 TimeStamp = 56ACE33D
-Path = 
-Reference = LOGO1;
-ValeurCmp = LOGO;
+Path = /56C7A67D
+Reference = LOGOR1;
+ValeurCmp = MISC;
 IdModule  = prettylib:TS65-LOGO;
 EndCmp
 
 BeginCmp
 TimeStamp = 56ACE3A6
-Path = 
-Reference = LOGO2;
-ValeurCmp = LOGO;
+Path = /56C7A677
+Reference = LOGOR2;
+ValeurCmp = MISC;
 IdModule  = prettylib:TS65-LOGO;
 EndCmp
 
 BeginCmp
 TimeStamp = 56ACE5CF
-Path = 
-Reference = LOGO3;
-ValeurCmp = OSHW;
+Path = /56C7A671
+Reference = LOGOR3;
+ValeurCmp = MISC;
 IdModule  = prettylib:OSHW;
-EndCmp
-
-BeginCmp
-TimeStamp = 56AC9109
-Path = /56B8CE53/56A7B5A6
-Reference = PR1;
-ValeurCmp = USB_TYPE_C;
-IdModule  = prettylib:USB_TYPE_C_HYBRID;
-EndCmp
-
-BeginCmp
-TimeStamp = 56ACEEB1
-Path = /56B8CE6E
-Reference = SR35_2;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS2;
-EndCmp
-
-BeginCmp
-TimeStamp = 4E035830
-Path = /56B8CE4A
-Reference = SR36;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS2;
-EndCmp
-
-BeginCmp
-TimeStamp = 56AD013D
-Path = /56B8CE76
-Reference = SR37_6;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
-EndCmp
-
-BeginCmp
-TimeStamp = 56AE144E
-Path = /56B8CE63
-Reference = SR37_7;
-ValeurCmp = SW;
-IdModule  = prettylib:MXALPS;
 EndCmp
 
 BeginCmp
@@ -3338,18 +2970,538 @@ EndCmp
 
 BeginCmp
 TimeStamp = 56B8CAFA
-Path = 
+Path = /56CA654B
 Reference = BREAKHOLES2;
-ValeurCmp = BreakHoles;
+ValeurCmp = MISC;
 IdModule  = prettylib:BreakHoles;
 EndCmp
 
 BeginCmp
 TimeStamp = 56B8C9BE
-Path = 
+Path = /56CA44F1
 Reference = BREAKHOLES1;
-ValeurCmp = BreakHoles;
+ValeurCmp = MISC;
 IdModule  = prettylib:BreakHoles;
+EndCmp
+
+BeginCmp
+TimeStamp = 54F1B6E1
+Path = /549878F0/4E418482
+Reference = LEDD1;
+ValeurCmp = LED;
+IdModule  = prettylib:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F7B8
+Path = /56CFEF79
+Reference = C10;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F7C4
+Path = /56CFEF83
+Reference = C11;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F7D0
+Path = /56CFEF8D
+Reference = C12;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F7DC
+Path = /56CFEF97
+Reference = C13;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F7E8
+Path = /56CFEFA1
+Reference = C14;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F7F4
+Path = /56CFEFAB
+Reference = C15;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F800
+Path = /56CFEFB5
+Reference = C16;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F80C
+Path = /56CFEFBF
+Reference = C17;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2FA64
+Path = /56CFEE86
+Reference = R13;
+ValeurCmp = 330;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32C38
+Path = /56CDE29A
+Reference = CR10;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32C44
+Path = /56CE9401
+Reference = CR11;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32C50
+Path = /56CEA830
+Reference = CR12;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32C5C
+Path = /56CEAD14
+Reference = CR13;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32C68
+Path = /56CEB6A2
+Reference = CR14;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32C74
+Path = /56CEBB7A
+Reference = CR15;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32C80
+Path = /56CEC079
+Reference = CR16;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32C8C
+Path = /56CEC565
+Reference = CR17;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32C98
+Path = /56CECA4E
+Reference = CR18;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32CA4
+Path = /56CECF36
+Reference = CR19;
+ValeurCmp = 0.1 uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32DB4
+Path = /56C4D02F
+Reference = RR13;
+ValeurCmp = 330;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D34F0
+Path = /56C7340C
+Reference = STAB1;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D8019
+Path = /56C72EB7
+Reference = STAB2;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ADC3FB
+Path = /56C6EA58
+Reference = STAB5;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FF65B
+Path = /56C7A6B3
+Reference = STABR4;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 569FF627
+Path = /56C7A6AD
+Reference = STABR3;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 56A25933
+Path = /56C7A6A1
+Reference = STABR6;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D34F0
+Path = /56C7A6B9
+Reference = STABR2;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 56AD05C0
+Path = /56C7A69B
+Reference = STABR7;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 569D8019
+Path = /56C7A6BF
+Reference = STABR1;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 4E035830
+Path = /56B8CE4A
+Reference = SR36;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56ACEEB1
+Path = /56B8CE6E
+Reference = SR35_2;
+ValeurCmp = SW;
+IdModule  = prettylib:MXALPS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C3B5D3
+Path = /56B8CE53/56CEB392
+Reference = PR4;
+ValeurCmp = FLASH_HDR;
+IdModule  = prettylib:JLINK_NEEDLE;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C39A04
+Path = /56C2E90F
+Reference = UR3;
+ValeurCmp = 74HCT1G125;
+IdModule  = prettylib:SOT-753;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C399F4
+Path = /56CFEE7C
+Reference = U3;
+ValeurCmp = 74HCT1G125;
+IdModule  = prettylib:SOT-753;
+EndCmp
+
+BeginCmp
+TimeStamp = 569DAE95
+Path = /56B8CE53/55307B33
+Reference = PR3;
+ValeurCmp = CONN_15;
+IdModule  = prettylib:HEADER_1x15;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C5905D
+Path = /549878F0/56C672C5
+Reference = C18;
+ValeurCmp = 0.1uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C59063
+Path = /56B8CE53/56C68C64
+Reference = CR20;
+ValeurCmp = 0.1uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C736E9
+Path = /549878F0/56C7D3C2
+Reference = C19;
+ValeurCmp = 10uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C736F5
+Path = /56B8CE53/56C8AEA9
+Reference = CR21;
+ValeurCmp = 10uF;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C736FB
+Path = /549878F0/56C7D380
+Reference = F1;
+ValeurCmp = PTC FUSE;
+IdModule  = prettylib:Fuse_SMD1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C73701
+Path = /56B8CE53/56C7F0D0
+Reference = FR1;
+ValeurCmp = PTC FUSE;
+IdModule  = prettylib:Fuse_SMD1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C7371F
+Path = /56B8CE53/56C7A4A0
+Reference = UR4;
+ValeurCmp = IP4234CZ6;
+IdModule  = prettylib:SOT457;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C73710
+Path = /549878F0/56C7D369
+Reference = U4;
+ValeurCmp = IP4234CZ6;
+IdModule  = prettylib:SOT457;
+EndCmp
+
+BeginCmp
+TimeStamp = 56CC559F
+Path = /56B8CE52/56CC8DE6
+Reference = LEDI1;
+ValeurCmp = LED;
+IdModule  = prettylib:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 56CC55B0
+Path = /56B8CE52/56CC8F94
+Reference = LEDI2;
+ValeurCmp = LED;
+IdModule  = prettylib:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 56CC55C1
+Path = /56B8CE52/56CC906E
+Reference = LEDI3;
+ValeurCmp = LED;
+IdModule  = prettylib:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32DA8
+Path = /56C55A08
+Reference = LEDGR10;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32D8E
+Path = /56C79AA6
+Reference = LEDGR9;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32D74
+Path = /56C795F5
+Reference = LEDGR8;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32D5A
+Path = /56C7E044
+Reference = LEDGR7;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32D40
+Path = /56C7E058
+Reference = LEDGR6;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32D26
+Path = /56C8ABB6
+Reference = LEDGR5;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32D0C
+Path = /56C8ABAC
+Reference = LEDGR4;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32CF2
+Path = /56C8AB98
+Reference = LEDGR3;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32CD8
+Path = /56C8ABA2
+Reference = LEDGR2;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C32CBE
+Path = /56C8AB8E
+Reference = LEDGR1;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F8B8
+Path = /56CFEECC
+Reference = LEDG2;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F8D2
+Path = /56CFEEE0
+Reference = LEDG3;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F8EC
+Path = /56CFEEEA
+Reference = LEDG4;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F906
+Path = /56CFEEB8
+Reference = LEDG5;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F920
+Path = /56CFEEAE
+Reference = LEDG6;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F93A
+Path = /56CFEE9A
+Reference = LEDG7;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F954
+Path = /56CFEEA4
+Reference = LEDG8;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C2F89E
+Path = /56CFEED6
+Reference = LEDG1;
+ValeurCmp = WS2812B;
+IdModule  = prettylib:WS2812B;
 EndCmp
 
 EndListe

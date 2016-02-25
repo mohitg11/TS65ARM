@@ -1,8 +1,8 @@
-(module MX_200 (layer F.Cu) (tedit 569FEBC9)
-  (fp_text reference SW? (at 0 3.175) (layer F.SilkS)
+(module MX_200 (layer F.Cu) (tedit 56C31912)
+  (fp_text reference SW? (at 0 3.175) (layer Dwgs.User)
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
   )
-  (fp_text value MX_200 (at 0.127 5.08) (layer F.SilkS) hide
+  (fp_text value MX_200 (at 0.127 5.08) (layer Dwgs.User)
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
   )
   (fp_text user 2.00u (at -15.367 8.255) (layer Dwgs.User) hide
