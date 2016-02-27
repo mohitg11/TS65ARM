@@ -12,12 +12,13 @@ This is a custom 65% style keyboard that is split in the middle to provide a mor
 - Alps & Cherry (PCB and Plate) switches supported
 - PCB mount stabs supported
 - All keys individually lit. LED on top to maintain compatibility with the few backlit keysets out there
-- Either side (Left or right) can be connected to the PC
-- 34 SMD (1206) LEDs on the bottom of the PCB for under/side glow
-- SMD (SOD-123) diodes only
+- 18 RGB DMD LEDs on the bottom of the PCB for under/side glow
+- 3 indicator LEDs
 - Individual resistors for the LEDs not required as it uses a dedicated LED driver
-- USB 3.0 Type A and USB Type C are used. The ICED has problems with the microUSB 3.0, the USB Type C should solve this.
-- Using larger (0805) capacitors and resistors compared to ICED so it is easier to hand-solder
+- Either side (Left or right) can be connected to the PC
+- USB 3.0 Type A and USB Type C are used.
+- Using larger (0805) capacitors and resistors so it is easy to hand-solder
+- SMD (SOD-123) diodes only
 
 #Layout options
 - Split backspace
