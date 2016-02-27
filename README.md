@@ -12,7 +12,7 @@ This is a custom 65% style keyboard that is split in the middle to provide a mor
 - Alps & Cherry (PCB and Plate) switches supported
 - PCB mount stabs supported
 - All keys individually lit. LED on top to maintain compatibility with the few backlit keysets out there
-- 18 RGB DMD LEDs on the bottom of the PCB for under/side glow
+- 18 RGB SMD LEDs on the bottom of the PCB for under/side glow
 - 3 indicator LEDs
 - Individual resistors for the LEDs not required as it uses a dedicated LED driver
 - Either side (Left or right) can be connected to the PC
