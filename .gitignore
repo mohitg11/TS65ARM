@@ -49,5 +49,7 @@ Temporary Items
 *.bak
 *.bck
 *.kicad_pcb-bak
-PCB/TS65-cache.lib
-Local/*
+*.bck
+*.dcm
+/PCB/*-cache.lib
+/Local/
